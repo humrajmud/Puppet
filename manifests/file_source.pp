@@ -1,3 +1,3 @@
-file { '/etc/motd':
-  source => '/vagrant/examples/files/motd.txt',
+file { '/tmp/motd':
+  source => '/puppet-beginners-guide/examples/files/motd.txt',
 }
